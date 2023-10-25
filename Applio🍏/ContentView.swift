@@ -41,7 +41,7 @@ struct WebViewContainer: UIViewRepresentable {
 struct WebViewExample: View {
     var body: some View {
         NavigationView {
-            WebViewContainer(urlString: "https://huggingface.co/spaces/AnthonyxD2/Aesthetic_RVC_Inference_H_IOS")
+            WebViewContainer(urlString: "https://huggingface.co/spaces/r3gm/RVC_HF")
                 .navigationBarTitle("Applio🍏 For IOS", displayMode: .inline)
         }
     }
